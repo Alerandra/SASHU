@@ -222,6 +222,7 @@ var settings = {
 								indicators.push($indicator_li);
 
 						}
+						
 
 					i++;
 
