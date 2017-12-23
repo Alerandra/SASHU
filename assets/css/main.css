@@ -241,13 +241,13 @@ form textarea {
 form button {
   border: 1px solid rgba(0,0,0,0.2);
   padding: 8px 35px;
-  font-size: 12px;
+  font-size: 20 px;
   background: #888;
   color: white;
 }
 form label {
   color: #777;
-  font-size: 11px;
+  font-size: 20 px;
   margin-bottom: 2px;
   display: block;
 }
@@ -1621,13 +1621,13 @@ form label {
 /* Type */
 
 	html {
-		font-size: 13pt;
+		font-size: 25pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 25pt;
 			}
 
 		}
@@ -1635,7 +1635,7 @@ form label {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 25pt;
 			}
 
 		}
@@ -1651,7 +1651,7 @@ form label {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 25pt;
 			}
 
 		}
@@ -1659,7 +1659,7 @@ form label {
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 25pt;
 			}
 
 		}
