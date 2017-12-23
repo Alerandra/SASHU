@@ -241,13 +241,13 @@ form textarea {
 form button {
   border: 1px solid rgba(0,0,0,0.2);
   padding: 8px 35px;
-  font-size: 20 px;
+  font-size: 12 px;
   background: #888;
   color: white;
 }
 form label {
   color: #777;
-  font-size: 20 px;
+  font-size: 12 px;
   margin-bottom: 2px;
   display: block;
 }
