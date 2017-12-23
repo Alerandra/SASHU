@@ -1621,13 +1621,13 @@ form label {
 /* Type */
 
 	html {
-		font-size: 25pt;
+		font-size: 12pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 25pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1635,7 +1635,7 @@ form label {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 25pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1651,7 +1651,7 @@ form label {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 25pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1659,7 +1659,7 @@ form label {
 		@media screen and (max-width: 480px) {
 
 			html {
-				font-size: 25pt;
+				font-size: 12pt;
 			}
 
 		}
