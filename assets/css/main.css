@@ -4382,19 +4382,3 @@ form label {
     right: 40px;
     z-index: 99;
 }
-#back-top a {
-    background: url("../img/up-arrow.png") no-repeat scroll 50% 12px #e4e4e4;
-    border-radius: 1000px;
-    display: block;
-    font-size: 0;
-    height: 42px;
-    line-height: 0;
-    overflow: hidden;
-    text-align: center;
-    text-indent: 999px;
-    transition: all 0.2s ease 0s;
-    width: 42px;
-}
-#back-top a:hover {
-    background-color: #a4a4a4;
-}
