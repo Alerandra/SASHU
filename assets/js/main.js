@@ -1,5 +1,5 @@
 /*
-	Hielo by TEMPLATED
+	Hielo by travel squad
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
@@ -223,7 +223,6 @@ var settings = {
 
 						}
 
-
 					i++;
 
 				})
@@ -252,7 +251,8 @@ var settings = {
 			}, options.delay);
 
 	};
-$(function() {
+
+	$(function() {
 
 		var	$window 	= $(window),
 			$body 		= $('body'),
@@ -283,14 +283,6 @@ $(function() {
 			$('#menu')
 				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'right'
-				});
 				.panel({
 					delay: 500,
 					hideOnClick: true,
