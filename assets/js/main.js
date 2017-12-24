@@ -275,11 +275,7 @@ myform.submit(function(event){
 
 	$(function() {
 
-		var	$window 	= (window),
-			$body 		= $('body'),
-			$header 	= $('#header'),
-			$banner 	= $('.banner');
-
+		
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
