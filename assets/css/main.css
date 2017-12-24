@@ -252,6 +252,34 @@ form label {
   display: block;
 }
 
+/*-----start-gallery----*/
+.gallery-grids{
+	padding-top:2em;
+}
+.gallery{
+	padding:3em 0;
+}
+.gallery-head h3{
+	color: #202020;
+	font-weight: 700;
+	font-size: 1.8em;
+	margin: 0;
+	text-transform:uppercase;
+}
+.gallery-head span{
+	height: 1px;
+	width: 8%;
+	background: #ff2020;
+	display: inline-block;
+}
+.gallery-head p{
+	color: #777777;
+	width: 60%;
+	margin: 0.5em auto;
+	font-size:0.8125em;
+	line-height:1.8em;
+	font-family: 'Open Sans', sans-serif;
+
 /* Grid */
 
 	.row {
