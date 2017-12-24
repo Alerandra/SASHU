@@ -3,6 +3,26 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+// Код кнопки наверх
+jQuery("#back-top").hide();
+// fade in #back-top
+jQuery(function () {
+    jQuery(window).scroll(function () {
+    if (jQuery(this).scrollTop() > 100) {
+        jQuery('#back-top').fadeIn();
+    } else {
+        jQuery('#back-top').fadeOut();
+    }
+    });
+    // scroll body to 0px on click
+    jQuery('#back-top a').click(function () {
+        jQuery('body,html').animate({
+        scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
+
 
 var settings = {
 
