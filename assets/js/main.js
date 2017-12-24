@@ -252,30 +252,21 @@ var settings = {
 			}, options.delay);
 
 	};
+$(function() {
 
-	var myform = $("form#myform");
-myform.submit(function(event){
-	event.preventDefault();
+		var	$window 	= $(window),
+			$body 		= $('body'),
+			$header 	= $('#header'),
+			$banner 	= $('.banner');
 
-  // Change to your service ID, or keep using the default service
-  var service_id = "default_service";
-  var template_id = "template_OjeNf1im";
+		// Disable animations/transitions until the page has loaded.
+			$body.addClass('is-loading');
 
-  myform.find("button").text("Отправка...");
-  emailjs.sendForm(service_id,template_id,"myform")
-  	.then(function(){
-    	alert("Sent!");
-       myform.find("button").text("Отправить");
-    }, function(err) {
-       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Отправлено");
-    });
-  return false;
-});
-
-	$(function() {
-
-		
+			$window.on('load', function() {
+				window.setTimeout(function() {
+					$body.removeClass('is-loading');
+				}, 100);
+			});
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
@@ -285,12 +276,21 @@ myform.submit(function(event){
 				);
 			});
 
-		
+		// Banner.
+			$banner._slider(settings.banner);
 
 		// Menu.
 			$('#menu')
 				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'right'
+				});
 				.panel({
 					delay: 500,
 					hideOnClick: true,
