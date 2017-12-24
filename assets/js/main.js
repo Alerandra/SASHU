@@ -222,7 +222,7 @@ var settings = {
 								indicators.push($indicator_li);
 
 						}
-						
+
 
 					i++;
 
@@ -275,7 +275,7 @@ myform.submit(function(event){
 
 	$(function() {
 
-		var	$window 	= $(window),
+		var	$window 	= (window),
 			$body 		= $('body'),
 			$header 	= $('#header'),
 			$banner 	= $('.banner');
