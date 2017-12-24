@@ -285,8 +285,7 @@ myform.submit(function(event){
 				);
 			});
 
-		// Banner.
-			$banner._slider(settings.banner);
+		
 
 		// Menu.
 			$('#menu')
