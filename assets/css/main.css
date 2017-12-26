@@ -264,7 +264,7 @@ form textarea {
 }
 form button {
   border: 1px solid rgba(0,0,0,0.2);
-  padding: 8px 35px;
+  padding: 8px 8px;
   font-size: 12 px;
   background: #888;
   color: white;
