@@ -38,7 +38,6 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -242,7 +241,7 @@
 
 body {
   font-family: 'Alegreya', serif;
-  font-size: 12px;
+  font-size: 16px !important;
   color: #666;
 }
 form {
@@ -4408,7 +4407,6 @@ form label {
 }
 
 .features p{
-	font-size: 16px;
 	margin-bottom: 1.5rem;
 }
 iframe{
