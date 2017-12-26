@@ -8,9 +8,6 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-p{
-margin-bottom: 5px;
-}
 /* Кнопка назад */
 #back-top {
     bottom: 60px;
@@ -1748,7 +1745,8 @@ form label {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		margin: 0 0 1rem 0;
+		line-height: 1.2rem;
 	}
 
 		p.special {
