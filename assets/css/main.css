@@ -4411,3 +4411,8 @@ form label {
 	font-size: 16px;
 	margin-bottom: 1.5rem;
 }
+iframe{
+	margin: 0 auto;
+	display: block;
+	margin-top: 40px;
+}
