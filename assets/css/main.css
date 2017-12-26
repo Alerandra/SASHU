@@ -4406,3 +4406,7 @@ form label {
     right: 40px;
     z-index: 99;
 }
+
+.features p{
+	font-size: 16px;
+}
